@@ -1,0 +1,15 @@
+<resources>
+    <!-- Style for the buttons in the layout -->
+    <style name="CalculatorButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">#3F51B5</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <!-- Style for the trigonometric and mode buttons -->
+    <style name="SpecialButton" parent="CalculatorButton">
+        <item name="android:background">#FF4081</item>
+    </style>
+</resources>

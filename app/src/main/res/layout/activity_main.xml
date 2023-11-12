@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#FF4081"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="#424242"
+        android:textSize="32sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Botones de números -->
+        <Button
+            android:id="@+id/btn7"
+            style="@style/CalculatorButton"
+            android:text="7" />
+        <Button
+            android:id="@+id/btn8"
+            style="@style/CalculatorButton"
+            android:text="8" />
+        <Button
+            android:id="@+id/btn9"
+            style="@style/CalculatorButton"
+            android:text="9" />
+        <Button
+            android:id="@+id/btndivision"
+            style="@style/CalculatorButton"
+            android:text="/" />
+    </LinearLayout>
+    <!-- Botones de números -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/CalculatorButton"
+            android:text="4" />
+        <Button
+            android:id="@+id/btn5"
+            style="@style/CalculatorButton"
+            android:text="5" />
+        <Button
+            android:id="@+id/btn6"
+            style="@style/CalculatorButton"
+            android:text="6" />
+        <Button
+            android:id="@+id/btnmultiple"
+            style="@style/CalculatorButton"
+            android:text="*" />
+    </LinearLayout>
+
+    <!-- Botones de números -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/CalculatorButton"
+            android:text="1" />
+        <Button
+            android:id="@+id/btn2"
+            style="@style/CalculatorButton"
+            android:text="2" />
+        <Button
+            android:id="@+id/btn3"
+            style="@style/CalculatorButton"
+            android:text="3" />
+        <Button
+            android:id="@+id/btnsubstract"
+            style="@style/CalculatorButton"
+            android:text="-" />
+    </LinearLayout>
+
+    <!-- Botones de números -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnclear"
+            style="@style/CalculatorButton"
+            android:text="C" />
+        <Button
+            android:id="@+id/btn0"
+            style="@style/CalculatorButton"
+            android:text="0" />
+        <Button
+            android:id="@+id/btnequal"
+            style="@style/CalculatorButton"
+            android:text="=" />
+        <Button
+            android:id="@+id/btnadd"
+            style="@style/CalculatorButton"
+            android:text="+" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btncos"
+            style="@style/SpecialButton"
+            android:text="cos"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btnsen"
+            style="@style/SpecialButton"
+            android:text="sen"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btntan"
+            style="@style/SpecialButton"
+            android:text="tan"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btnradiant"
+            style="@style/SpecialButton"
+            android:text="rad"
+            android:textColor="#212121" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btndegrees"
+            style="@style/SpecialButton"
+            android:text="deg"
+            android:textColor="#212121" />
+    </LinearLayout>
+</LinearLayout>
